@@ -1,0 +1,31 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "exemple": {
+      "home": {
+        "title": "Exemples",
+        "createLabel": "Criar novo Exemple",
+        "createOrEditLabel": "Criar ou editar Exemple"
+      },
+      "created": "Um novo Exemple foi criado com o identificador {{ param }}",
+      "updated": "Um Exemple foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Exemple foi deletado com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Exemple {{ id }}?"
+      },
+      "detail": {
+        "title": "Exemple"
+      },
+      "typeString": "Type String",
+      "typeStringPattern": "Type String Pattern",
+      "typeInteger": "Type Integer",
+      "typeLong": "Type Long",
+      "typeBigDecimal": "Type Big Decimal",
+      "typeLocalDate": "Type Local Date",
+      "typeInstant": "Type Instant",
+      "typeImageBlob": "Type Image Blob",
+      "typeTextBlob": "Type Text Blob",
+      "typeAnyBlob": "Type Any Blob",
+      "typeBlob": "Type Blob"
+    }
+  }
+}
