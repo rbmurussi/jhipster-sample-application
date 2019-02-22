@@ -1,0 +1,72 @@
+{
+    "name": "Exemple",
+    "fields": [
+        {
+            "fieldName": "typeString",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "typeStringPattern",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength",
+                "pattern"
+            ],
+            "fieldValidateRulesMinlength": 1,
+            "fieldValidateRulesMaxlength": 42,
+            "fieldValidateRulesPattern": "[A-Z]+"
+        },
+        {
+            "fieldName": "typeInteger",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "typeLong",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "typeBigDecimal",
+            "fieldType": "BigDecimal"
+        },
+        {
+            "fieldName": "typeLocalDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "typeInstant",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "typeImageBlob",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "image"
+        },
+        {
+            "fieldName": "typeTextBlob",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "text"
+        },
+        {
+            "fieldName": "typeAnyBlob",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "any"
+        },
+        {
+            "fieldName": "typeBlob",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "any"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190222162737",
+    "entityTableName": "exemple",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
